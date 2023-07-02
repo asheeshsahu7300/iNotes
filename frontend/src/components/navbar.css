@@ -1,0 +1,90 @@
+
+.bg-dark {
+    --bs-bg-opacity: 0;
+    background-color: rgba(33,01,41,1)!important;
+    height: 80px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: rgb(129, 69, 145);
+    border-color: rgb(149, 67, 170);
+}
+.btn-primary :hover{
+background-color:rgb(91, 41, 103); 
+border: 1px solid rgb(170, 46, 201);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn {
+    /* display: inline-block; */
+    font-weight: 400;
+    line-height: 1.5;
+
+    /* color: #212529; */
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    /* cursor: pointer; */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    /* background-color: transparent; */
+    border: 1px solid rgb(170, 46, 201);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    
+
+}
+.btn:hover{
+    background-color: rgb(58, 34, 65,linear-gradient(.01,0.01));
+    box-shadow: 0 5px 5px rgba(0,0,0.2);
+    border-color:  rgb(44, 24, 49);
+    background: #240935;
+    color: #fff;
+    transform: scale(1.1);
+    z-index: 9;
+    cursor: pointer;
+    color: rgb(232, 226, 238);
+}
+.btn:hover::after{
+    background-color: rgb(63, 27, 96);
+    background: linear-gradient(90deg,transparent,rgba(255,255,255,.4),transparent);
+	transition: 0.5s;
+	transition-delay: 0.5s;
+}
+.btn:focus{
+    background-color: rgb(63, 27, 96);
+    border-color:rgb(45, 9, 79) ;
+    border: 0cap;
+}
+.container{
+    background-color:#ffffff;
+    border-radius: 1.5em;
+    padding: 30px 30px;
+    transform: scale(.8);
+    align-items:center;
+    place-items: center;
+    -moz-box-align: center;
+    display:block;
+    box-sizing:unset;
+    box-shadow: #240935;
+}
+.container:hover{
+    box-shadow: 0 5px 5px rgba(0,0,0.2);
+    border-color:  rgb(44, 24, 49);
+    background: #240935;
+    color: #d3c4d6;
+    transform: scale(.8);
+    z-index: 9;
+    cursor: pointer;
+    color: rgb(232, 226, 238);
+}
+.containers{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
