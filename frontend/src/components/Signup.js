@@ -7,7 +7,7 @@ export default function Signup(props) {
     const data=JSON.stringify({email:credential.email,password:credential.password,name:credential.name});
     console.log(data);
     e.preventDefault();
-    const url = "https://inotes-backend-eob5.onrender.com//api/auth/createuser";
+    const url = "https://inotes-backend-eob5.onrender.com/api/auth/createuser";
     const res = await fetch(url, {
       method: "POST",
       headers: {
