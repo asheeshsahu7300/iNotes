@@ -14,7 +14,7 @@ export default function Login(props) {
      const data=JSON.stringify({email:credential.email,password:credential.password});
      console.log(data);
     e.preventDefault();
-    const url = "http://localhost:5000/api/auth/login/";
+    const url = "https://inotes-backend-eob5.onrender.com//api/auth/login/";
     const res = await fetch(url, {
       method: "POST",
       headers: {
